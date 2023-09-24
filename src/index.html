@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html class="scroll-smooth">
   <head>
     <meta charset="UTF-8" />
@@ -7,37 +7,38 @@
     <title>Farhan Portfolo</title>
     <script src="script.js"></script>
   </head>
+
   <body>
     <header
-      class="px-10 lg:px-[10rem] py-4 fixed bg-white/80 w-full z-10 border-b border-black"
+      class="fixed z-10 w-full border-b border-black bg-white/80 px-10 py-4 lg:px-[10rem]"
     >
-      <nav class="flex justify-between items-center">
+      <nav class="flex items-center justify-between">
         <a href="#" class="text-4xl font-bold">FAR.</a>
-        <div class="gap-5 hidden md:flex text-xl">
+        <div class="hidden gap-5 text-xl md:flex">
           <a
             href="#home"
-            class="font-bold p-2 hover:text-gray-400 transition-all delay-75"
+            class="p-2 font-bold transition-all delay-75 hover:text-gray-400"
             >Home</a
           >
           <a
             href="#services"
-            class="font-bold p-2 hover:text-gray-400 transition-all delay-75"
+            class="p-2 font-bold transition-all delay-75 hover:text-gray-400"
             >Services</a
           >
           <a
             href="#projects"
-            class="font-bold p-2 hover:text-gray-400 transition-all delay-75"
+            class="p-2 font-bold transition-all delay-75 hover:text-gray-400"
             >Projects</a
           >
           <a
             href="#Skills"
-            class="font-bold p-2 hover:text-gray-400 transition-all delay-75"
+            class="p-2 font-bold transition-all delay-75 hover:text-gray-400"
           >
             Skills
           </a>
           <a
             href="#contact"
-            class="font-bold p-2 hover:text-gray-400 transition-all delay-75"
+            class="p-2 font-bold transition-all delay-75 hover:text-gray-400"
             >Contact</a
           >
         </div>
@@ -49,25 +50,25 @@
           onclick="toggleMenu()"
         />
       </nav>
-      <div class="gap-5 flex-col hidden" id="mobileMenu">
+      <div class="hidden flex-col gap-5" id="mobileMenu">
         <a
           href="#home"
-          class="font-bold p-2 hover:text-gray-400 transition-all delay-75"
+          class="p-2 font-bold transition-all delay-75 hover:text-gray-400"
           >Home</a
         >
         <a
           href="#skills"
-          class="font-bold p-2 hover:text-gray-400 transition-all delay-75"
+          class="p-2 font-bold transition-all delay-75 hover:text-gray-400"
           >Skills</a
         >
         <a
           href="#project"
-          class="font-bold p-2 hover:text-gray-400 transition-all delay-75"
+          class="p-2 font-bold transition-all delay-75 hover:text-gray-400"
           >Projects</a
         >
         <a
           href="#contac"
-          class="font-bold p-2 hover:text-gray-400 transition-all delay-75"
+          class="p-2 font-bold transition-all delay-75 hover:text-gray-400"
           >Contact</a
         >
       </div>
@@ -75,15 +76,15 @@
     <!-- //// -->
     <!-- Hero -->
     <section
-      class="min-h-screen flex flex-col lg:flex-row justify-center items-center mx-10 lg:mx-[10rem] gap-10 pt-[5rem]"
+      class="mx-10 flex min-h-screen flex-col items-center justify-center gap-10 pt-[5rem] lg:mx-[10rem] lg:flex-row"
       id="home"
     >
       <div>
-        <h2 class="tracking-[0.5rem] text-lg mb-3">HELLO I AM</h2>
-        <h1 class="text-4xl lg:text-5xl mb-3 font-extrabold">
+        <h2 class="mb-3 text-lg tracking-[0.5rem]">HELLO I AM</h2>
+        <h1 class="mb-3 text-4xl font-extrabold lg:text-5xl">
           Farhan <span class="text-primary"> Abdurrahman </span>
         </h1>
-        <p class="mb-5 text-lg text-justify">
+        <p class="mb-5 text-justify text-lg">
           I am a graphic designer who is passionate about the visual world. With
           limitless imagination and relentless creativity, I have created works
           that combine art and functionality. Welcome to my graphic design
@@ -91,7 +92,7 @@
         </p>
         <a
           href="https://drive.google.com/file/d/1Mn6yAimHVERZAfya8ekIOMyObvJWkn9L/view?usp=sharing "
-          class="px-5 py-3 bg-zinc-900 text-white rounded-lg hover:bg-primary transition-all"
+          class="rounded-lg bg-zinc-900 px-5 py-3 text-white transition-all hover:bg-primary"
           target="_blank"
         >
           Let's take a look at my CV
@@ -103,20 +104,21 @@
 
     <!-- Services star -->
     <section
-      class="h-screen flex flex-col justify-center items-center gap-3 px-10 bg-slate-50 lg:px-[10rem]"
+      class="flex h-screen flex-col items-center justify-center gap-3 bg-slate-50 px-10 lg:px-[10rem]"
       id="services"
     >
-      <h2 class="tracking-[0.5rem] text-xl mb-3">SERVICES</h2>
-      <h1 class="text-3xl font-bold mb-5">Specialazed In</h1>
-      <div class="flex flex-wrap justify-center w-full gap-10">
+      <h2 class="mb-3 text-xl tracking-[0.5rem]">SERVICES</h2>
+      <h1 class="mb-5 text-3xl font-bold">Specialazed In</h1>
+
+      <div class="flex w-full flex-wrap justify-center gap-10">
         <div
-          class="flex flex-col justify-center items-center border-2 border-primary rounded-xl shadow-xl hover:shadow-none transition-all p-3 max-w-[30rem]"
+          class="flex max-w-[20rem] flex-col items-center gap-2 rounded-xl border-2 border-primary p-3 shadow-xl transition-all hover:shadow-none"
         >
-          <div class="">
+          <div>
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              width="24"
-              height="24"
+              width="30"
+              height="30"
               viewBox="0 0 24 24"
             >
               <path
@@ -131,13 +133,13 @@
           </p>
         </div>
         <div
-          class="flex flex-col justify-center items-center border-2 border-primary rounded-xl shadow-xl hover:shadow-none transition-all p-3 max-w-[30rem]"
+          class="flex max-w-[20rem] flex-col items-center gap-2 rounded-xl border-2 border-primary p-3 shadow-xl transition-all hover:shadow-none"
         >
-          <div class="">
+          <div>
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              width="24"
-              height="24"
+              width="30"
+              height="30"
               viewBox="0 0 24 24"
             >
               <path
@@ -153,12 +155,12 @@
           </p>
         </div>
         <div
-          class="flex flex-col justify-center items-center border-2 border-primary rounded-xl shadow-xl hover:shadow-none transition-all p-3 max-w-[30rem]"
+          class="flex max-w-[20rem] flex-col items-center gap-2 rounded-xl border-2 border-primary p-3 shadow-xl transition-all hover:shadow-none"
         >
-          <div class="">
+          <div>
             <svg
-              width="24"
-              height="24"
+              width="30"
+              height="30"
               xmlns="http://www.w3.org/2000/svg"
               fill-rule="evenodd"
               clip-rule="evenodd"
@@ -181,62 +183,65 @@
 
     <!-- Projets -->
     <section
-      class="min-h-screen flex flex-col justify-center items-center gap-2 mx-10 lg:mx-[10rem]"
+      class="mx-10 flex min-h-screen flex-col items-center justify-center gap-2 lg:mx-[10rem]"
       id="projects"
     >
-      <h2 class="tracking-[0.5rem] text-xl mb-3">MY WORKS</h2>
-      <h1 class="text-3xl font-bold mb-5">Projects</h1>
-      <div class="flex flex-wrap justify-center w-full gap-10">
+      <h2 class="mb-3 text-xl tracking-[0.5rem]">MY WORKS</h2>
+      <h1 class="mb-5 text-3xl font-bold">Projects</h1>
+      <div class="flex w-full flex-wrap justify-center gap-10">
         <div
-          class="w-[400px] p-5 rounded-md border-2 border-primary flex flex-col gap-5"
+          class="flex w-[330px] flex-col justify-between rounded-xl border-2 border-primary p-5 shadow-xl transition-all hover:shadow-none"
         >
-          <div class="h-[200px] bg-slate-400">
-            <img src="./assets/video.png" alt="" />
+          <div>
+            <div class="mb-5 w-full bg-slate-400">
+              <img src="./assets/video.png" alt="" />
+            </div>
+            <h2 class="text-xl font-semibold">DESIGNS</h2>
+            <p class="text-justify">
+              This is some designs that I created using several software.
+            </p>
           </div>
-          <h2 class="text-xl font-semibold">DESIGNS</h2>
-          <p class="text-justify">
-            This is some designs that I created using several software.
-          </p>
           <a
-            href="#"
-            class="px-5 py-3 bg-zinc-900 text-white rounded-lg hover:bg-primary transition-all text-center"
-            target="_blank"
+            href="./pages/design.html"
+            class="rounded-lg bg-zinc-900 px-5 py-3 text-center text-white transition-all hover:bg-primary"
             >See More</a
           >
         </div>
         <div
-          class="w-[400px] p-5 rounded-md border-2 border-primary flex flex-col gap-5"
+          class="flex w-[330px] flex-col justify-between rounded-xl border-2 border-primary p-5 shadow-xl transition-all hover:shadow-none"
         >
-          <div class="h-[200px] bg-slate-400">
-            <img src="./assets/video.png" alt="" />
+          <div>
+            <div class="mb-5 w-full bg-slate-400">
+              <img src="./assets/video.png" alt="" />
+            </div>
+            <h2 class="text-xl font-semibold">Video Edting</h2>
+            <p class="text-justify">
+              Here, I am showcasing some of my video creations, ranging from
+              formal to informal ones.
+            </p>
           </div>
-          <h2 class="text-xl font-semibold">Video Edting</h2>
-          <p class="text-justify">
-            Here, I am showcasing some of my video creations, ranging from
-            formal to informal ones.
-          </p>
           <a
-            href="#"
-            class="px-5 py-3 bg-zinc-900 text-white rounded-lg hover:bg-primary transition-all text-center"
-            target="_blank"
+            href="./pages/editing.html"
+            class="rounded-lg bg-zinc-900 px-5 py-3 text-center text-white transition-all hover:bg-primary"
             >See More</a
           >
         </div>
         <div
-          class="w-[400px] p-5 rounded-md border-2 border-primary flex flex-col gap-5"
+          class="flex w-[330px] flex-col justify-between rounded-xl border-2 border-primary p-5 shadow-xl transition-all hover:shadow-none"
         >
-          <div class="h-[200px] bg-slate-400">
-            <img src="./assets/web.png" alt="" />
+          <div>
+            <div class="mb-5 w-full bg-slate-400">
+              <img src="./assets/web.png" alt="" />
+            </div>
+            <h2 class="text-xl font-semibold">Web Development</h2>
+            <p class="text-justify">
+              These are some websites that I've created. I'm still relatively
+              new to this field.
+            </p>
           </div>
-          <h2 class="text-xl font-semibold">Web Development</h2>
-          <p class="text-justify">
-            These are some websites that I've created. I'm still relatively new
-            to this field.
-          </p>
           <a
-            href="#"
-            class="px-5 py-3 bg-zinc-900 text-white rounded-lg hover:bg-primary transition-all text-center"
-            target="_blank"
+            href="./pages/website.html"
+            class="rounded-lg bg-zinc-900 px-5 py-3 text-center text-white transition-all hover:bg-primary"
             >See More</a
           >
         </div>
@@ -246,55 +251,141 @@
 
     <!-- skills -->
     <section
-      class="min-h-screen flex flex-col justify-center items-center gap-2 mx-10 lg:mx-[10rem]"
-      id="Skills">
-      <h2 class="tracking-[0.5rem] text-xl mb-3">skills</h2>
-      <h1 class="text-3xl font-bold mb-5">Projects</h1>
-      <div
-        class="flex flex-wrap justify-center w-full gap-10">
+      class="mx-10 flex min-h-screen flex-col items-center justify-center gap-2 lg:mx-[10rem]"
+      id="Skills"
+    >
+      <h2 class="mb-3 text-xl tracking-[0.5rem]">I CAN DO IT<DOc></DOc></h2>
+      <h1 class="mb-5 text-3xl font-bold">My Skills</h1>
+      <div class="flex w-full flex-wrap justify-center gap-10">
         <div
-          class="w-[200px] p-5 rounded-md border-2 border-primary flex flex-col gap-5">
-          <h1 class="text-xl font-bold text-center"> Desain software </h1>
-          <div class="flex gap-3">
-            <a title="292Jacob, CC BY-SA 4.0 &lt;https://creativecommons.org/licenses/by-sa/4.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Canva_icon_2021.svg"><img width="30" alt="Canva icon 2021" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Canva_icon_2021.svg/512px-Canva_icon_2021.svg.png"></a>
-            <a title="Fred the Oyster, Public domain, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Adobe_Photoshop_CC_icon.svg"><img width="30" alt="Adobe Photoshop CC icon" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Adobe_Photoshop_CC_icon.svg/512px-Adobe_Photoshop_CC_icon.svg.png"></a>
-            <a title="VSCO, Public domain, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:VSCO_Seal.svg"><img width="30" alt="VSCO Seal" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/VSCO_Seal.svg/512px-VSCO_Seal.svg.png"></a>
-            <a title="capcut, CC BY-SA 4.0 &lt;https://creativecommons.org/licenses/by-sa/4.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Capcut-logo.svg"><img width="30" alt="Capcut-logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Capcut-logo.svg/512px-Capcut-logo.svg.png"></a>
+          class="flex min-w-[200px] flex-col gap-5 rounded-xl border-2 border-primary p-5 shadow-xl transition-all hover:shadow-none"
+        >
+          <h1 class="text-center text-xl font-bold">Desain software</h1>
+          <div class="flex items-center justify-center gap-3">
+            <a
+              title="292Jacob, CC BY-SA 4.0 &lt;https://creativecommons.org/licenses/by-sa/4.0&gt;, via Wikimedia Commons"
+              href="https://commons.wikimedia.org/wiki/File:Canva_icon_2021.svg"
+              ><img
+                width="30"
+                alt="Canva icon 2021"
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Canva_icon_2021.svg/512px-Canva_icon_2021.svg.png"
+            /></a>
+            <a
+              title="Fred the Oyster, Public domain, via Wikimedia Commons"
+              href="https://commons.wikimedia.org/wiki/File:Adobe_Photoshop_CC_icon.svg"
+              ><img
+                width="30"
+                alt="Adobe Photoshop CC icon"
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Adobe_Photoshop_CC_icon.svg/512px-Adobe_Photoshop_CC_icon.svg.png"
+            /></a>
+            <a
+              title="VSCO, Public domain, via Wikimedia Commons"
+              href="https://commons.wikimedia.org/wiki/File:VSCO_Seal.svg"
+              ><img
+                width="30"
+                alt="VSCO Seal"
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/VSCO_Seal.svg/512px-VSCO_Seal.svg.png"
+            /></a>
+            <a
+              title="capcut, CC BY-SA 4.0 &lt;https://creativecommons.org/licenses/by-sa/4.0&gt;, via Wikimedia Commons"
+              href="https://commons.wikimedia.org/wiki/File:Capcut-logo.svg"
+              ><img
+                width="30"
+                alt="Capcut-logo"
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Capcut-logo.svg/512px-Capcut-logo.svg.png"
+            /></a>
           </div>
         </div>
         <div
-          class="w-[300px] p-5 rounded-md border-2 border-primary flex flex-col gap-5">
-          <h1 class="text-xl font-bold text-center"> Video editing software </h1>
-          <div class="flex gap-3">
-            <a title="a title="Wondershare Team, Public domain, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Wondershare_filmora_logo.svg"><img width="30" alt="Wondershare filmora logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Wondershare_filmora_logo.svg/128px-Wondershare_filmora_logo.svg.png"></a>
-            <a title="capcut, CC BY-SA 4.0 &lt;https://creativecommons.org/licenses/by-sa/4.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Capcut-logo.svg"><img width="30" alt="Capcut-logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Capcut-logo.svg/512px-Capcut-logo.svg.png"></a>
-            <a title="™/®Adobe Inc., Public domain, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Adobe_After_Effects_CC_icon.svg"><img width="30" alt="Adobe After Effects CC icon" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Adobe_After_Effects_CC_icon.svg/512px-Adobe_After_Effects_CC_icon.svg.png"></a>
-            <a title="Spiderdan19, Public domain, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Vegas_Pro_15.0.png"><img width="30" alt="Vegas Pro 15.0" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Vegas_Pro_15.0.png/512px-Vegas_Pro_15.0.png"></a>
-            <a title="™/®Adobe Inc., Public domain, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Adobe_Premiere_Pro_CC_icon.svg"><img width="30" alt="Adobe Premiere Pro CC icon" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Adobe_Premiere_Pro_CC_icon.svg/512px-Adobe_Premiere_Pro_CC_icon.svg.png"></a>
+          class="flex min-w-[200px] flex-col gap-5 rounded-xl border-2 border-primary p-5 shadow-xl transition-all hover:shadow-none"
+        >
+          <h1 class="text-center text-xl font-bold">Video editing software</h1>
+          <div class="flex items-center justify-center gap-3">
+            <a
+              title="Wondershare Team, Public domain, via Wikimedia Commons"
+              href="https://commons.wikimedia.org/wiki/File:Wondershare_filmora_logo.svg"
+              ><img
+                width="30"
+                alt="Wondershare filmora logo"
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Wondershare_filmora_logo.svg/128px-Wondershare_filmora_logo.svg.png"
+            /></a>
+            <a
+              title="capcut, CC BY-SA 4.0 &lt;https://creativecommons.org/licenses/by-sa/4.0&gt;, via Wikimedia Commons"
+              href="https://commons.wikimedia.org/wiki/File:Capcut-logo.svg"
+              ><img
+                width="30"
+                alt="Capcut-logo"
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Capcut-logo.svg/512px-Capcut-logo.svg.png"
+            /></a>
+            <a
+              title="™/®Adobe Inc., Public domain, via Wikimedia Commons"
+              href="https://commons.wikimedia.org/wiki/File:Adobe_After_Effects_CC_icon.svg"
+              ><img
+                width="30"
+                alt="Adobe After Effects CC icon"
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Adobe_After_Effects_CC_icon.svg/512px-Adobe_After_Effects_CC_icon.svg.png"
+            /></a>
+            <a
+              title="Spiderdan19, Public domain, via Wikimedia Commons"
+              href="https://commons.wikimedia.org/wiki/File:Vegas_Pro_15.0.png"
+              ><img
+                width="30"
+                alt="Vegas Pro 15.0"
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Vegas_Pro_15.0.png/512px-Vegas_Pro_15.0.png"
+            /></a>
+            <a
+              title="™/®Adobe Inc., Public domain, via Wikimedia Commons"
+              href="https://commons.wikimedia.org/wiki/File:Adobe_Premiere_Pro_CC_icon.svg"
+              ><img
+                width="30"
+                alt="Adobe Premiere Pro CC icon"
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Adobe_Premiere_Pro_CC_icon.svg/512px-Adobe_Premiere_Pro_CC_icon.svg.png"
+            /></a>
           </div>
         </div>
         <div
-          class="w-[200px] p-5 rounded-md border-2 border-primary flex flex-col gap-5">
-          <h1 class="text-xl font-bold text-center"> Web software </h1>
-          <div class="flex gap-3">
-            <a title="Microsoft, MIT &lt;http://opensource.org/licenses/mit-license.php&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Visual_Studio_Code_0.10.1_icon.png"><img width="30" height="50" alt="Visual Studio Code 0.10.1 icon" src="https://upload.wikimedia.org/wikipedia/commons/f/f3/Visual_Studio_Code_0.10.1_icon.png"></a>
-            <a title="W3C, CC BY 3.0 &lt;https://creativecommons.org/licenses/by/3.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:HTML5_logo_and_wordmark.svg"><img width="30" alt="HTML5 logo and wordmark" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/512px-HTML5_logo_and_wordmark.svg.png"></a>
-            <a title="Rudloff, CC BY 3.0 &lt;https://creativecommons.org/licenses/by/3.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:CSS3_logo_and_wordmark.svg"><img width="30" alt="CSS3 logo and wordmark" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/512px-CSS3_logo_and_wordmark.svg.png"></a> 
-            <a title="Tailwind Labs, Inc., Public domain, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Tailwind_CSS_logo.svg"><img width="30" alt="Tailwind CSS logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Tailwind_CSS_logo.svg/32px-Tailwind_CSS_logo.svg.png"></a>
-            <a title="Bootstrap, Public domain, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Bootstrap_logo.svg"><img width="30" alt="Bootstrap logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/512px-Bootstrap_logo.svg.png"></a>
+          class="flex min-w-[200px] flex-col gap-5 rounded-xl border-2 border-primary p-5 shadow-xl transition-all hover:shadow-none"
+        >
+          <h1 class="text-center text-xl font-bold">Web software</h1>
+          <div class="flex items-center justify-center gap-3">
+            <a
+              title="W3C, CC BY 3.0 &lt;https://creativecommons.org/licenses/by/3.0&gt;, via Wikimedia Commons"
+              href="https://commons.wikimedia.org/wiki/File:HTML5_Badge.svg"
+              ><img
+                width="30"
+                alt="HTML5 Badge"
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/HTML5_Badge.svg/512px-HTML5_Badge.svg.png"
+            /></a>
+            <a
+              title="Rudloff, CC BY 3.0 &lt;https://creativecommons.org/licenses/by/3.0&gt;, via Wikimedia Commons"
+              href="https://commons.wikimedia.org/wiki/File:CSS3_logo_and_wordmark.svg"
+              ><img
+                width="25"
+                alt="CSS3 logo and wordmark"
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/256px-CSS3_logo_and_wordmark.svg.png"
+            /></a>
+            <a
+              title="JavaScript Corp., CC BY-SA 4.0 &lt;https://creativecommons.org/licenses/by-sa/4.0&gt;, via Wikimedia Commons"
+              href="https://commons.wikimedia.org/wiki/File:Javascript_Logo.png"
+              ><img
+                width="30"
+                alt="Javascript Logo"
+                src="https://upload.wikimedia.org/wikipedia/commons/3/3b/Javascript_Logo.png"
+            /></a>
           </div>
         </div>
-    </div>
+      </div>
     </section>
 
     <!-- Contact -->
     <section
-      class="h-screen flex justify-center items-center flex-col px-10 lg:px-[10rem] bg-slate-50"
-      id="contact">
-      <h2 class="tracking-[0.5rem] text-xl mb-3">MY SOCIAL MEDIA</h2>
-      <h1 class="text-3xl font-bold mb-5">Contact</h1>
+      class="flex h-screen flex-col items-center justify-center bg-slate-50 px-10 lg:px-[10rem]"
+      id="contact"
+    >
+      <h2 class="mb-3 text-lg tracking-[0.5rem]">SOCIAL MEDIA</h2>
+      <h1 class="mb-5 text-3xl font-bold">Contact Me</h1>
       <div class="flex flex-col gap-10">
-        <div class="flex gap-10">
+        <div class="flex flex-wrap gap-10">
           <a
             href="https://www.linkedin.com/in/farhan-abdurrahman-24040303/"
             class="hover:text-primary"
@@ -330,7 +421,7 @@
         </div>
         <a
           href="mailto:farhannn2404@gmail.com"
-          class="px-5 py-3 bg-zinc-900 text-white rounded-lg hover:bg-primary transition-all text-center"
+          class="rounded-lg bg-zinc-900 px-5 py-3 text-center text-white transition-all hover:bg-primary"
           >Email Me Here</a
         >
       </div>
@@ -338,31 +429,31 @@
     <!-- /Contact -->
     <!-- Footer -->
     <footer
-      class="flex flex-col justify-center items-center p-5 border-t-2 border-black font-bold gap-3"
+      class="flex flex-col items-center justify-center gap-3 border-t-2 border-black p-5 font-bold"
     >
-      <div class="gap-3 flex">
+      <div class="flex gap-3">
         <a
           href="#home"
-          class="font-bold p-2 hover:text-gray-400 transition-all delay-75"
+          class="p-2 font-bold transition-all delay-75 hover:text-gray-400"
           >Home</a
         >
         <a
           href="#services"
-          class="font-bold p-2 hover:text-gray-400 transition-all delay-75"
+          class="p-2 font-bold transition-all delay-75 hover:text-gray-400"
           >Services</a
         >
         <a
           href="#projects"
-          class="font-bold p-2 hover:text-gray-400 transition-all delay-75"
+          class="p-2 font-bold transition-all delay-75 hover:text-gray-400"
           >Projects</a
         >
         <a
           href="#contact"
-          class="font-bold p-2 hover:text-gray-400 transition-all delay-75"
+          class="p-2 font-bold transition-all delay-75 hover:text-gray-400"
           >Contact</a
         >
       </div>
-      <p>&copy; 2023 | Farhan Abdurrahman </p>
+      <p>&copy; 2023 | Farhan Abdurrahman</p>
     </footer>
     <!-- /Footer -->
     <script src="script.js"></script>
