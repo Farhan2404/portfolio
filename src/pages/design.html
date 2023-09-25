@@ -1,112 +1,73 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="/dist/output.css" rel="stylesheet" />
-    <title>Farhan Portfolo</title>
-    <script src="../script.js"></script>
-  </head>
-  <body>
-    <header
-    class="fixed z-10 w-full border-b border-black bg-white/80 px-10 py-4 lg:px-[10rem]"
-  >
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="/dist/output.css" rel="stylesheet" />
+  <title>Farhan Portfolo</title>
+  <script src="../script.js"></script>
+</head>
+
+<body>
+  <header class="fixed z-10 w-full border-b border-black bg-white/80 px-10 py-4 lg:px-[10rem]">
     <nav class="flex items-center justify-between">
       <a href="../index.html" class="text-4xl font-bold">FAR.</a>
       <div class="hidden gap-5 text-xl md:flex">
-        <a
-          href="../index.html#home"
-          class="p-2 font-bold transition-all delay-75 hover:text-gray-400"
-          >Home</a
-        >
-        <a
-          href="../index.html#services"
-          class="p-2 font-bold transition-all delay-75 hover:text-gray-400"
-          >Services</a
-        >
-        <a
-          href="../index.html#projects"
-          class="p-2 font-bold transition-all delay-75 hover:text-gray-400"
-          >Projects</a
-        >
-        <a
-          href="../index.html#Skills"
-          class="p-2 font-bold transition-all delay-75 hover:text-gray-400"
-        >
+        <a href="../index.html#home" class="p-2 font-bold transition-all delay-75 hover:text-gray-400">Home</a>
+        <a href="../index.html#services" class="p-2 font-bold transition-all delay-75 hover:text-gray-400">Services</a>
+        <a href="../index.html#projects" class="p-2 font-bold transition-all delay-75 hover:text-gray-400">Projects</a>
+        <a href="../index.html#Skills" class="p-2 font-bold transition-all delay-75 hover:text-gray-400">
           Skills
         </a>
-        <a
-          href="../index.html#contact"
-          class="p-2 font-bold transition-all delay-75 hover:text-gray-400"
-          >Contact</a
-        >
+        <a href="../index.html#contact" class="p-2 font-bold transition-all delay-75 hover:text-gray-400">Contact</a>
       </div>
-      <img
-        width="30"
-        src="https://img.icons8.com/ios-filled/50/menu--v1.png"
-        alt="menu--v1"
-        class="md:hidden"
-        onclick="toggleMenu()"
-      />
+      <img width="30" src="https://img.icons8.com/ios-filled/50/menu--v1.png" alt="menu--v1" class="md:hidden"
+        onclick="toggleMenu()" />
     </nav>
     <div class="hidden flex-col gap-5" id="mobileMenu">
-      <a
-        href="../index.html#home"
-        class="p-2 font-bold transition-all delay-75 hover:text-gray-400"
-        >Home</a
-      >
-      <a
-        href="../index.html#skills"
-        class="p-2 font-bold transition-all delay-75 hover:text-gray-400"
-        >Skills</a
-      >
-      <a
-        href="../index.html#project"
-        class="p-2 font-bold transition-all delay-75 hover:text-gray-400"
-        >Projects</a
-      >
-      <a
-        href="../index.html#contac"
-        class="p-2 font-bold transition-all delay-75 hover:text-gray-400"
-        >Contact</a
-      >
+      <a href="../index.html#home" class="p-2 font-bold transition-all delay-75 hover:text-gray-400">Home</a>
+      <a href="../index.html#skills" class="p-2 font-bold transition-all delay-75 hover:text-gray-400">Skills</a>
+      <a href="../index.html#project" class="p-2 font-bold transition-all delay-75 hover:text-gray-400">Projects</a>
+      <a href="../index.html#contac" class="p-2 font-bold transition-all delay-75 hover:text-gray-400">Contact</a>
     </div>
   </header>
-  <main class="flex flex-col min-h-screen justify-center items-center gap-5">
-      <h1 class="text-3xl font-bold text-center"> Desain Projects </h1>
-      <div class="flex gap-5  flex-wrap justify-center" >
-        <div class="p-3 flex  gap-5 justify-center border-4 border-primary rounded-xl">
-          <img width="350px" src="../assets/mata ayam.png" alt="">
-          <div>
-            <h3 class="text-3xl font-bold"> Thumbnail Desain </h3>
-            <ul class="list-disc pl-5 mb-5">
-          </div>
+  <main class="flex flex-col min-h-screen justify-center items-center gap-5 pt-24">
+    <h1 class="text-3xl font-bold text-center">Desain Projects</h1>
+    <div class="flex gap-5  flex-wrap justify-center mb-5">
+      <div class="shadow-xl transition-all hover:shadow-none p-3 flex flex-col-reverse gap-5 justify-center items-center border-4 border-primary rounded-xl">
+        <img src="../assets/mata ayam.png" class="w-[300px] max-h-[400px] rounded-xl">
+        <div>
+          <h3 class="text-2xl font-bold"> Thumbnail Desain </h3>
         </div>
-        <div class="p-3 flex  gap-5 justify-center border-4 border-primary rounded-xl">
-          <img width="350px" src="../assets/barcode.png" alt="">
-          <div>
-            <h3 class="text-3xl font-bold"> Thumbnail Desain </h3>
-          </div>
+      </div>
+      <div class="shadow-xl transition-all hover:shadow-none p-3 flex flex-col-reverse gap-5 justify-center items-center border-4 border-primary rounded-xl">
+        <img src="../assets/barcode.png" class="w-[300px] max-h-[400px] rounded-xl">
+        <div>
+          <h3 class="text-2xl font-bold"> Thumbnail Desain </h3>
         </div>
-        <div class="p-3 flex flex-col gap-5 justify-center border-4 border-primary rounded-xl">
-          <img width="200px" src="../assets/Leo Messi.png" alt="">
-          <div>
-            <h3 class="text-3xl font-bold"> Poster projects </h3>
-          </div>
+      </div>
+      <div class="shadow-xl transition-all hover:shadow-none p-3 flex flex-col-reverse gap-5 justify-center items-center border-4 border-primary rounded-xl">
+        <img src="../assets/mj 2 laser.png" class="w-[300px] max-h-[400px] rounded-xl">
+        <div>
+          <h3 class="text-2xl font-bold"> Thumbnail Desain </h3>
         </div>
-        <div class="p-3 flex flex-col gap-5 justify-center border-4 border-primary rounded-xl">
-          <img width="200px" src="../assets/Enzo Fernandez.png" alt="">
-          <div>
-            <h3 class="text-3xl font-bold"> Poster Projects  </h3>
-          </div>
+      </div>
+      <div class="shadow-xl transition-all hover:shadow-none p-3 flex flex-col-reverse gap-5 justify-center items-center border-4 border-primary rounded-xl">
+        <img src="../assets/Leo Messi.png" class="w-[300px] max-h-[400px] rounded-xl">
+        <div>
+          <h3 class="text-2xl font-bold"> Poster Desain </h3>
         </div>
-        <div class="p-3 flex gap-5 justify-center border-4 border-primary rounded-xl">
-          <img width="350px" src="../assets/mj 2 laser.png" alt="">
-          <div>
-            <h3 class="text-3xl font-bold"> Thumbnail Desain </h3>
-          </div>
+      </div>
+      <div class="shadow-xl transition-all hover:shadow-none p-3 flex flex-col-reverse gap-5 justify-center items-center border-4 border-primary rounded-xl">
+        <img src="../assets/Enzo Fernandez.png" class="w-[300px] max-h-[400px] rounded-xl">
+        <div>
+          <h3 class="text-2xl font-bold"> Poster Desain </h3>
         </div>
-        </main>
-    <script src="../script.js"></script>
-  </body>
+      </div>
+    </div>
+  </main>
+  <script src="../script.js"></script>
+</body>
+
 </html>
