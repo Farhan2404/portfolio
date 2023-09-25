@@ -6,3 +6,4 @@ function toggleMenu() {
     mobileMenu.style.display = "flex";
   }
 }
+

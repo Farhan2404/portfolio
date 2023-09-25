@@ -9,72 +9,104 @@
   </head>
   <body>
     <header
-      class="fixed z-10 w-full border-b border-black bg-white/80 px-10 py-4 lg:px-[10rem]"
-    >
-      <nav class="flex items-center justify-between">
-        <a href="../index.html" class="text-4xl font-bold">FAR.</a>
-        <div class="hidden gap-5 text-xl md:flex">
-          <a
-            href="../index.html#home"
-            class="p-2 font-bold transition-all delay-75 hover:text-gray-400"
-            >Home</a
-          >
-          <a
-            href="../index.html#services"
-            class="p-2 font-bold transition-all delay-75 hover:text-gray-400"
-            >Services</a
-          >
-          <a
-            href="../index.html#projects"
-            class="p-2 font-bold transition-all delay-75 hover:text-gray-400"
-            >Projects</a
-          >
-          <a
-            href="../index.html#Skills"
-            class="p-2 font-bold transition-all delay-75 hover:text-gray-400"
-          >
-            Skills
-          </a>
-          <a
-            href="../index.html#contact"
-            class="p-2 font-bold transition-all delay-75 hover:text-gray-400"
-            >Contact</a
-          >
-        </div>
-        <img
-          width="30"
-          src="https://img.icons8.com/ios-filled/50/menu--v1.png"
-          alt="menu--v1"
-          class="md:hidden"
-          onclick="toggleMenu()"
-        />
-      </nav>
-      <div class="hidden flex-col gap-5" id="mobileMenu">
+    class="fixed z-10 w-full border-b border-black bg-white/80 px-10 py-4 lg:px-[10rem]"
+  >
+    <nav class="flex items-center justify-between">
+      <a href="../index.html" class="text-4xl font-bold">FAR.</a>
+      <div class="hidden gap-5 text-xl md:flex">
         <a
           href="../index.html#home"
           class="p-2 font-bold transition-all delay-75 hover:text-gray-400"
           >Home</a
         >
         <a
-          href="../index.html#skills"
+          href="../index.html#services"
           class="p-2 font-bold transition-all delay-75 hover:text-gray-400"
-          >Skills</a
+          >Services</a
         >
         <a
-          href="../index.html#project"
+          href="../index.html#projects"
           class="p-2 font-bold transition-all delay-75 hover:text-gray-400"
           >Projects</a
         >
         <a
-          href="../index.html#contac"
+          href="../index.html#Skills"
+          class="p-2 font-bold transition-all delay-75 hover:text-gray-400"
+        >
+          Skills
+        </a>
+        <a
+          href="../index.html#contact"
           class="p-2 font-bold transition-all delay-75 hover:text-gray-400"
           >Contact</a
         >
       </div>
-    </header>
-    <main class="flex min-h-screen items-center justify-center">
-      <h1 class="text-3xl font-bold">Design</h1>
-    </main>
+      <img
+        width="30"
+        src="https://img.icons8.com/ios-filled/50/menu--v1.png"
+        alt="menu--v1"
+        class="md:hidden"
+        onclick="toggleMenu()"
+      />
+    </nav>
+    <div class="hidden flex-col gap-5" id="mobileMenu">
+      <a
+        href="../index.html#home"
+        class="p-2 font-bold transition-all delay-75 hover:text-gray-400"
+        >Home</a
+      >
+      <a
+        href="../index.html#skills"
+        class="p-2 font-bold transition-all delay-75 hover:text-gray-400"
+        >Skills</a
+      >
+      <a
+        href="../index.html#project"
+        class="p-2 font-bold transition-all delay-75 hover:text-gray-400"
+        >Projects</a
+      >
+      <a
+        href="../index.html#contac"
+        class="p-2 font-bold transition-all delay-75 hover:text-gray-400"
+        >Contact</a
+      >
+    </div>
+  </header>
+  <main class="flex flex-col min-h-screen justify-center items-center gap-5">
+      <h1 class="text-3xl font-bold text-center"> Desain Projects </h1>
+      <div class="flex gap-5  flex-wrap justify-center" >
+        <div class="p-3 flex  gap-5 justify-center border-4 border-primary rounded-xl">
+          <img width="350px" src="../assets/mata ayam.png" alt="">
+          <div>
+            <h3 class="text-3xl font-bold"> Thumbnail Desain </h3>
+            <ul class="list-disc pl-5 mb-5">
+          </div>
+        </div>
+        <div class="p-3 flex  gap-5 justify-center border-4 border-primary rounded-xl">
+          <img width="350px" src="../assets/barcode.png" alt="">
+          <div>
+            <h3 class="text-3xl font-bold"> Thumbnail Desain </h3>
+          </div>
+        </div>
+        <div class="p-3 flex flex-col gap-5 justify-center border-4 border-primary rounded-xl">
+          <img width="200px" src="../assets/Leo Messi.png" alt="">
+          <div>
+            <h3 class="text-3xl font-bold"> Poster projects </h3>
+          </div>
+        </div>
+        <div class="p-3 flex flex-col gap-5 justify-center border-4 border-primary rounded-xl">
+          <img width="200px" src="../assets/Enzo Fernandez.png" alt="">
+          <div>
+            <h3 class="text-3xl font-bold"> Poster Projects  </h3>
+          </div>
+        </div>
+        <div class="p-3 flex gap-5 justify-center border-4 border-primary rounded-xl">
+          <img width="350px" src="../assets/mj 2 laser.png" alt="">
+          <div>
+            <h3 class="text-3xl font-bold"> Thumbnail Desain </h3>
+          </div>
+        </div>
+        </main>
     <script src="../script.js"></script>
   </body>
 </html>
