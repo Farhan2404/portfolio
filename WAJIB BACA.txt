@@ -1,3 +1,0 @@
-1. jalankan diterminal npm run dev
-2. Jalankan index.html pada folder src menggunakan LiveServer
-3. Happy code anji
