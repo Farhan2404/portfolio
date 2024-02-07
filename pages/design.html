@@ -1,73 +1,152 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Farhan Portfolo</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Farhan Portfolo</title>
-  <script src="https://cdn.tailwindcss.com"></script>
-  <link rel="stylesheet" href="style.css">
-</head>
+  <body>
+    <header
+      class="fixed z-10 w-full border-b border-black bg-white/80 px-10 py-4 lg:px-[10rem]"
+    >
+      <nav class="flex items-center justify-between">
+        <a href="../index.html" class="text-4xl font-bold">FAR.</a>
+        <div class="hidden gap-5 text-xl md:flex">
+          <a
+            href="../index.html#home"
+            class="p-2 font-bold transition-all delay-75 hover:text-gray-400"
+            >Home</a
+          >
+          <a
+            href="../index.html#services"
+            class="p-2 font-bold transition-all delay-75 hover:text-gray-400"
+            >Services</a
+          >
+          <a
+            href="../index.html#projects"
+            class="p-2 font-bold transition-all delay-75 hover:text-gray-400"
+            >Projects</a
+          >
+          <a
+            href="../index.html#Skills"
+            class="p-2 font-bold transition-all delay-75 hover:text-gray-400"
+          >
+            Skills
+          </a>
+          <a
+            href="../index.html#contact"
+            class="p-2 font-bold transition-all delay-75 hover:text-gray-400"
+            >Contact</a
+          >
+        </div>
+        <img
+          width="30"
+          src="https://img.icons8.com/ios-filled/50/menu--v1.png"
+          alt="menu--v1"
+          class="md:hidden"
+          onclick="toggleMenu()"
+        />
+      </nav>
+      <div class="hidden flex-col gap-5" id="mobileMenu">
+        <a
+          href="../index.html#home"
+          class="p-2 font-bold transition-all delay-75 hover:text-gray-400"
+          >Home</a
+        >
+        <a
+          href="../index.html#skills"
+          class="p-2 font-bold transition-all delay-75 hover:text-gray-400"
+          >Skills</a
+        >
+        <a
+          href="../index.html#project"
+          class="p-2 font-bold transition-all delay-75 hover:text-gray-400"
+          >Projects</a
+        >
+        <a
+          href="../index.html#contac"
+          class="p-2 font-bold transition-all delay-75 hover:text-gray-400"
+          >Contact</a
+        >
+      </div>
+    </header>
+    <main class="pt-24 mx-10 lg:mx-20 min-h-screen flex flex-col gap-5">
+      <h1 class="text-3xl font-bold text-center">MY DESIGN PROJECTS</h1>
+      <h3 class="text-2xl font-bold">Thumbnail Desain</h3>
+      <section class="flex gap-2 flex-wrap mb-5">
+        <div
+          class="shadow-xl transition-all hover:shadow-none border-4 border-primary rounded-xl"
+        >
+          <img
+            src="../assets/mata ayam.png"
+            class="w-[300px] max-h-[400px] rounded-xl"
+          />
+        </div>
+        <div
+          class="shadow-xl transition-all hover:shadow-none border-4 border-primary rounded-xl"
+        >
+          <img
+            src="../assets/barcode.png"
+            class="w-[300px] max-h-[400px] rounded-xl"
+          />
+        </div>
+        <div
+          class="shadow-xl transition-all hover:shadow-none border-4 border-primary rounded-xl"
+        >
+          <img
+            src="../assets/mj 2 laser.png"
+            class="w-[300px] max-h-[400px] rounded-xl"
+          />
+        </div>
+      </section>
+      <h3 class="text-2xl font-bold">Poster Desain</h3>
+      <section class="flex items-start gap-2 flex-wrap mb-5">
+        <div
+          class="shadow-xl transition-all hover:shadow-none border-4 border-primary rounded-xl"
+        >
+          <img
+            src="../assets/Bukayo saka .png"
+            class="w-[300px] max-h-[400px] rounded-xl"
+          />
+        </div>
+        <div
+          class="shadow-xl transition-all hover:shadow-none border-4 border-primary rounded-xl"
+        >
+          <img
+            src="../assets/Titano Araujo  .png"
+            class="w-[300px] max-h-[400px] rounded-xl"
+          />
+        </div>
+        <div
+          class="shadow-xl transition-all hover:shadow-none border-4 border-primary rounded-xl"
+        >
+          <img
+            src="../assets/Luiz Diaz.jpg"
+            class="w-[300px] max-h-[400px] rounded-xl"
+          />
+        </div>
 
-<body>
-  <header class="fixed z-10 w-full border-b border-black bg-white/80 px-10 py-4 lg:px-[10rem]">
-    <nav class="flex items-center justify-between">
-      <a href="../index.html" class="text-4xl font-bold">FAR.</a>
-      <div class="hidden gap-5 text-xl md:flex">
-        <a href="../index.html#home" class="p-2 font-bold transition-all delay-75 hover:text-gray-400">Home</a>
-        <a href="../index.html#services" class="p-2 font-bold transition-all delay-75 hover:text-gray-400">Services</a>
-        <a href="../index.html#projects" class="p-2 font-bold transition-all delay-75 hover:text-gray-400">Projects</a>
-        <a href="../index.html#Skills" class="p-2 font-bold transition-all delay-75 hover:text-gray-400">
-          Skills
-        </a>
-        <a href="../index.html#contact" class="p-2 font-bold transition-all delay-75 hover:text-gray-400">Contact</a>
-      </div>
-      <img width="30" src="https://img.icons8.com/ios-filled/50/menu--v1.png" alt="menu--v1" class="md:hidden"
-        onclick="toggleMenu()" />
-    </nav>
-    <div class="hidden flex-col gap-5" id="mobileMenu">
-      <a href="../index.html#home" class="p-2 font-bold transition-all delay-75 hover:text-gray-400">Home</a>
-      <a href="../index.html#skills" class="p-2 font-bold transition-all delay-75 hover:text-gray-400">Skills</a>
-      <a href="../index.html#project" class="p-2 font-bold transition-all delay-75 hover:text-gray-400">Projects</a>
-      <a href="../index.html#contac" class="p-2 font-bold transition-all delay-75 hover:text-gray-400">Contact</a>
-    </div>
-  </header>
-  <main class="flex flex-col min-h-screen justify-center items-center gap-5 pt-24">
-    <h1 class="text-3xl font-bold text-center">Desain Projects</h1>
-    <div class="flex gap-5  flex-wrap justify-center mb-5">
-      <div class="shadow-xl transition-all hover:shadow-none p-3 flex flex-col-reverse gap-5 justify-center items-center border-4 border-primary rounded-xl">
-        <img src="../assets/mata ayam.png" class="w-[300px] max-h-[400px] rounded-xl">
-        <div>
-          <h3 class="text-2xl font-bold"> Thumbnail Desain </h3>
+        <div
+          class="shadow-xl transition-all hover:shadow-none border-4 border-primary rounded-xl"
+        >
+          <img
+            src="../assets/Poster  Matchday.jpg"
+            class="w-[300px] max-h-[400px] rounded-xl"
+          />
         </div>
-      </div>
-      <div class="shadow-xl transition-all hover:shadow-none p-3 flex flex-col-reverse gap-5 justify-center items-center border-4 border-primary rounded-xl">
-        <img src="../assets/barcode.png" class="w-[300px] max-h-[400px] rounded-xl">
-        <div>
-          <h3 class="text-2xl font-bold"> Thumbnail Desain </h3>
+        <div
+          class="shadow-xl transition-all hover:shadow-none border-4 border-primary rounded-xl"
+        >
+          <img
+            src="../assets/Poster indo jepang .jpg"
+            class="w-[300px] max-h-[400px] rounded-xl"
+          />
         </div>
-      </div>
-      <div class="shadow-xl transition-all hover:shadow-none p-3 flex flex-col-reverse gap-5 justify-center items-center border-4 border-primary rounded-xl">
-        <img src="../assets/mj 2 laser.png" class="w-[300px] max-h-[400px] rounded-xl">
-        <div>
-          <h3 class="text-2xl font-bold"> Thumbnail Desain </h3>
-        </div>
-      </div>
-      <div class="shadow-xl transition-all hover:shadow-none p-3 flex flex-col-reverse gap-5 justify-center items-center border-4 border-primary rounded-xl">
-        <img src="../assets/Leo Messi.png" class="w-[300px] max-h-[400px] rounded-xl">
-        <div>
-          <h3 class="text-2xl font-bold"> Poster Desain </h3>
-        </div>
-      </div>
-      <div class="shadow-xl transition-all hover:shadow-none p-3 flex flex-col-reverse gap-5 justify-center items-center border-4 border-primary rounded-xl">
-        <img src="../assets/Enzo Fernandez.png" class="w-[300px] max-h-[400px] rounded-xl">
-        <div>
-          <h3 class="text-2xl font-bold"> Poster Desain </h3>
-        </div>
-      </div>
-    </div>
-  </main>
-  <script src="../script.js"></script>
-</body>
-
+      </section>
+    </main>
+    <script src="../script.js"></script>
+  </body>
 </html>
